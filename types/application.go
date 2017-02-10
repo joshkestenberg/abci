@@ -28,6 +28,9 @@ type Application interface {
 
 // Some applications can choose to implement BlockchainAware
 type BlockchainAware interface {
+	// Let's make this easy for assertions,
+	// everything that is BlockchainAware must also an Application
+	Application
 
 	// Initialize blockchain
 	// validators: genesis validators from TendermintCore

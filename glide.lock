@@ -1,5 +1,5 @@
-hash: febff7f2646081f635b5dc2a0a672d9b8e42eb59241269e6658eec916cd2a5a4
-updated: 2017-01-13T00:24:02.377918976-05:00
+hash: 34ee9147e100eb47adfbe8436a48ca9327791a6748b199666198f05d10f8bc96
+updated: 2017-02-10T15:45:25.668151448+01:00
 imports:
 - name: github.com/btcsuite/btcd
   version: 153dca5c1e4b5d1ea1523592495e5bedfa503391
@@ -57,11 +57,15 @@ imports:
 - name: github.com/tendermint/go-process
   version: b27edfd189b1a01a0b099f7e9f8263589cf04909
 - name: github.com/tendermint/go-wire
-  version: 2f3b7aafe21c80b19b6ee3210ecb3e3d07c7a471
+  version: 3216ec9d47bbdf8d4fc27d22169ea86a6688bc15
 - name: github.com/tendermint/log15
   version: ae0f3d6450da9eac7074b439c8e1c3cabf0d5ce6
   subpackages:
   - term
+- name: github.com/tendermint/merkleeyes
+  version: 7c1ec0ef86c42b7a461e3967efb6c35bd5652101
+  subpackages:
+  - app
 - name: github.com/urfave/cli
   version: 8ef3805c9de2519805c3f060524b695bba2cd715
 - name: golang.org/x/crypto
